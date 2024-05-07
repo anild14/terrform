@@ -1,0 +1,6 @@
+----------
+- stages: build
+  displayname: build and push stage
+  jobs:
+  - job: build
+    displayname: build job

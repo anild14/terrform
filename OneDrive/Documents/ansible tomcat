@@ -1,0 +1,7 @@
+---------------------
+- name: install tomcat
+  hosts: all
+  become: yes
+  tasks:
+    -   
+  

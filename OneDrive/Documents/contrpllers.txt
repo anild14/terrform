@@ -1,0 +1,38 @@
+Controllers in K8s
+Controllers are k8s objects which run other k8s resources. This k8s resource will be part of specification generally in template section.
+Controllers maintain desired state.
+Some of the controllers are
+Replication Controller/Replica Set
+Stateful Sets
+Deployments
+Jobs
+Cron Jobs
+Daemonset
+K8s Jobs
+Refer Here for official docs
+K8s has two types of jobs
+Job: Run an activity/script to completion
+CronJob: Run an activity/script to completion at specific time period or intervals.
+Refer Here for the manifests with job and cronjob
+For jobs restartPolicy cannot be Always as job will never finish
+Preview
+Jobs have backoffLimit to limit number of restarts and activeDeadline seconds to limit timeperiod of execution.
+Running job and waiting for completion
+Preview
+Preview
+Cronjob manifest which we have written create a job every minute and waits for completion
+Preview
+Preview
+Preview
+Lets go back to Pods
+Lets run a alpine pod
+Preview
+Now if we want to execute a command in the container of alpine pod
+Preview
+To access the terminal
+Preview
+Exercise: If we have a pod with 2 container how exec a command on a specific container
+Lets run a pod which run application on some port
+Preview
+Now if we want to access the application in container we can do port-forward (not recommended approach)
+Preview

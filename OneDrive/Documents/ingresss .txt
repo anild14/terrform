@@ -1,0 +1,11 @@
+Ingress
+To understand concept of ingress Refer Here
+In k8s we have 3 major objects which will help in ingress (layer 7 loadbalancing)
+ingress
+ingressController: This is a third party implementation Refer Here
+ingressClass
+K8s doesnot have controller for ingress.
+Lets create four simple applicatons Refer Here for changes done
+Create docker image and push them to registry
+For this classroom purpose i will be using nginx-ingress-controller Refer Here
+Our implementation:

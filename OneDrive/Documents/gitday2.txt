@@ -1,0 +1,87 @@
+   1  ssh-keygen
+    2  cd ~
+    3  cd Downloads/
+    4  ssh -i "kumar.pem" ubuntu@ec2-13-53-205-164.eu-north-1.compute.amazonaws.com
+    5  cd ~
+    6   cd Downloads/
+    7  mkdir girpractice
+    8  cd git practice
+    9  cd ..
+   10  cd gitpractice
+   11  start .
+   12  mkdir day1
+   13  cd day1/
+   14  start .
+   15  git init
+   16  git add .
+   17  cd git init
+   18  exit
+   19  cd ~
+   20   cddow
+   21  cd Downloads/
+   22  mkdir day2
+   23  cd~
+   24  mkdir gitptracte day2
+   25  mkdir gitpractice day2
+   26  mkdir gitpractice day2
+   27  mkdir gitpractice day2
+   28  exit
+   29  cd ~
+   30  cd Downloads/
+   31  mkdir gitpractice
+   32  cd gitpractice
+   33  mkdir day2
+   34  cd day2/
+   35  start .
+   36  git init
+   37  mkdir src
+   38  mkdir test
+   39  start .
+   40  git status
+   41  new-item .\src\main.py
+   42  touch .\src\main.py
+   43  ls
+   44  touch .\test\main.py
+   45  ls
+   46  git status
+   47  git add .
+   48  exit
+   49  cd git practice
+   50  cd gitpractice
+   51  cd day2
+   52  exit
+   53  cd ~
+   54  cd Downloads/]
+   55  cd Downloads/
+   56  cd gitpractice
+   57  cd day2/
+   58  start
+   59  start .
+   60  git init
+   61  git status
+   62  git add --all
+   63  git rm --cached .testmain.py
+   64  git status
+   65  git  add -A
+   66  git commit -m "first"
+   67  code .
+   68  touch 1.txt
+   69  git status
+   70  git add .
+   71  git status
+   72  touch {1....100.txt}
+   73  git add .
+   74  git status
+   75  git rm --cached  {1....100.txt}
+   76  git status
+   77  git log --oneline
+   78  git commit -m "second"
+   79  git branch
+   80  git add -A
+   81  git status
+   82  git commit -m apollo "1"
+   83  git commit -m "apollo 1"
+   84  git log --oneline
+   85  git checkout master
+   86  git log
+   87  history

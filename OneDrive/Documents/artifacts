@@ -1,0 +1,29 @@
+---------------
+- task: PublishPipelineArtifact@1
+  displayName: 'Publish'
+  inputs:
+    targetPath: $(Build.ArtifactStagingDirectory)/**
+    ${{ if eq(variables['Build.SourceBranchName'], 'main') }}:
+        artifactName: 'prod'
+    ${{ else }}:
+        artifactName: 'dev'
+    artifactType: 'pipeline'
+
+
+
+
+
+
+
+
+download
+
+- task: DownloadPipelineArtifact@1
+  inputs:
+    buildType: 'current'
+    project: ''
+    definition: 12
+    buildVersionToDownload: 'latestFromBranch'
+    branchName: 'refs/heads/master'
+    tags: 'testTag'
+
